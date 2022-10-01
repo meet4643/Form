@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\VS Code\starting of html\html\01_login_page.html">
+    <title>Document</title>
+
+</head>
+<style>
+
+    
+    body{
+        
+        text-align: center;
+        background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.5o_X198Gs3UjCBfkIMsUtAHaEK%26pid%3DApi&f=1&ipt=4c1550d5376e223bec48024610e24a34821b8fb6c411f9ea165313427f5ab430&ipo=images);
+        background-repeat: no-repeat;
+        background-size: cover;
+    color: purple;
+    
+    
+    }
+form{
+    color: rgb(233, 206, 3);
+    text-decoration: dashed.;
+
+}
+input{
+    border: 5px solid black;
+    border-radius: 5px;
+
+}
+textarea{
+    border: 5px solid  black;
+}
+.submit:hover{
+     color: white;
+    background-color: rgb(174, 0, 255);
+
+}
+iframe{
+    border: 5px solid  rgb(0, 0, 0);
+    width: 300px; height: 300px;
+
+}
+.singin:hover{
+    background-color: black;
+    border: black 5px solid;
+    border-radius:2px;
+    background-color: black;
+    color: white;
+}
+
+
+</style>
+<body><br><br><br>
+    <h1>
+        Contact Information
+    </h1>
+    <p>fill Information</p><br><br><br>
+
+    
+    <form>
+Your Name      : <input type="text" name="yname"  placeholder="Your Name">
+<input type="text" name="lname" placeholder="Last Name"><br><br>
+
+Your Email : <input type="email" name="email" placeholder="Email" required>
+
+phone : <input type="text" name="phone" number="phone" value="+91" maxlength="10" required> <input type="text" name="phone" number="phone" value="+91" maxlength="10"> <br><br>
+
+
+Pincode : <input type="text" name="pincode" maxlength="6"><br><br>
+
+Gender : <input type="radio" class="submit" name="radio">Male
+
+ <input type="radio" name="radio">Female
+
+ <input type="radio" name="radio">Other<br><br>
+
+ City: <input list= "city" name="City">
+<datalist id ="city">
+    <option value="Rajkot"></option>
+    <option value="junagadh"></option>
+    <option value="dahod"></option>
+    <option value="jetpur"></option>
+    <option value="ahemdabad"></option>
+</datalist>
+    <br><br>
+
+Enter product quantity: <input type="number" name="quantity"  min="1" max="5" value="2 "><br><br>
+
+
+
+    Enter date to recive :<input type="date"  name="rdate" <br><br><br><br>
+
+
+    Address:<textarea name="Address" name="Address" rows="5" cols="30 " minlength="100"></textarea><br><br><br>
+
+  or Enter location  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.25792014736!2d72.43965644125869!3d23.020181763488917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1664526612288!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe><br /><br /><br />
+
+    product color:<input type="color" name="Pcolor" value="black">
+<br><br>
+
+defective product photo <input type="file" name="Photo" multiple>
+<br><br>
+
+varification:<input type="radio" name="radio" required> i 'm not a robot<br><br>
+ <input type="reset" name="reset" class="submit"> <input type="submit" name="submit" class="submit">
+<br><br>
+<a href="file:///D:/VS%20Code/starting%20of%20html/html/Form/01_Form.html"> <input type="button" name="sing in"  value="sing in " class="singin"></a>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
